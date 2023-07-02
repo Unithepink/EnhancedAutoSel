@@ -8,7 +8,7 @@ public class BaseTest {
     DriverManager driverManager;
     public WebDriver driver;
 
-    @BeforeTest
+    @BeforeSuite
     public void beforeTest() {
         driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
         driver = driverManager.getDriver();

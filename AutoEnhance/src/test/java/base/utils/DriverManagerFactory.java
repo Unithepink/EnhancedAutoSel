@@ -2,7 +2,6 @@ package base.utils;
 
 public class DriverManagerFactory {
 
-
     public static DriverManager getManager(DriverType driverType){
         DriverManager driverManager = null;
 

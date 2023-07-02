@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import static io.github.bonigarcia.wdm.config.DriverManagerType.CHROME;
 
 public class ChromeDriverManager extends DriverManager{
+
     @Override
     public WebDriver createDriver() {
         WebDriverManager.getInstance(CHROME).setup();
