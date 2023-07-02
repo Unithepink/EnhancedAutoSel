@@ -17,9 +17,8 @@ public class ChromeDriverManager extends DriverManager{
     @Override
     public WebDriver createDriver() {
         WebDriverManager.getInstance(CHROME).setup();
-        return new ChromeDriver(getChromeOptions());
+        return driver = new ChromeDriver(getChromeOptions());
     }
-
 
     private ChromeOptions getChromeOptions() {
         // A few valid Options for Chrome, showcase purpose.
